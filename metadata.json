@@ -1,0 +1,6 @@
+{
+  "name": "Portal Berita dan Edukasi Ekonomi Islam",
+  "description": "Portal berita, literasi muamalah, edukasi ekonomi syariah terkurasi, dan kalkulator zakat profesi interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
