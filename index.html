@@ -1,19 +1,190 @@
 <!doctype html>
 <html lang="id" class="scroll-smooth">
   <head>
+    <!-- Karakter & Pengaturan Viewport untuk Kepatuhan Mobile-First & Core Web Vitals -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portal Berita dan Edukasi Ekonomi Islam</title>
-    <meta name="description" content="Portal berita, literasi muamalah, edukasi ekonomi syariah terkurasi, dan kalkulator zakat profesi interaktif." />
-    <meta property="og:title" content="Portal Berita dan Edukasi Ekonomi Islam" />
-    <meta property="og:description" content="Portal berita, literasi muamalah, edukasi ekonomi syariah terkurasi, dan kalkulator zakat profesi interaktif." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- Google Fonts: Plus Jakarta Sans & Newsreader -->
+    <!-- 1. Title Tag Dinamis & Optimal (56 Karakter) - Memuat Kata Kunci Primer & Brand -->
+    <title>Edukasi &amp; Berita Ekonomi Syariah Terkini | Ekonomi Islam</title>
+
+    <!-- 2. Meta Description (153 Karakter) - CTR-Friendly dengan Ajakan Bertindak & Long-Tail Keywords -->
+    <meta
+      name="description"
+      content="Portal edukasi ekonomi Islam &amp; berita ekonomi syariah terkini. Pelajari hukum paylater, perbedaan mudharabah, dan kalkulator zakat perdagangan akurat."
+    />
+
+    <!-- 3. Canonical URL Tag - Menghindari Masalah Konten Duplikat (Duplicate Content) -->
+    <link rel="canonical" href="https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/" />
+
+    <!-- 4. Meta Robots Tag - Menginstruksikan Mesin Pencari Google untuk Mengindeks & Menampilkan Rich Snippet Maksimal -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <!-- 5. Metadata Penulis & Identitas Penerbit -->
+    <meta name="author" content="Dewan Pakar Ekonomi Islam" />
+    <meta name="publisher" content="Ekonomi Islam Media Group" />
+    <meta name="theme-color" content="#064935" />
+    <meta name="color-scheme" content="light" />
+
+    <!-- 6. Resource Hints: DNS-Prefetch & Preconnect untuk Mempercepat FCP & LCP (Core Web Vitals) -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin />
+
+    <!-- 7. Open Graph (OG) Meta Tags - Optimasi Pratinjau Sosial (Facebook, WhatsApp, LinkedIn, Telegram) -->
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ekonomi Islam" />
+    <meta property="og:url" content="https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/" />
+    <meta property="og:title" content="Edukasi &amp; Berita Ekonomi Syariah Terkini | Ekonomi Islam" />
+    <meta
+      property="og:description"
+      content="Portal edukasi ekonomi Islam &amp; berita ekonomi syariah terkini. Pelajari hukum paylater, perbedaan mudharabah, dan kalkulator zakat perdagangan akurat."
+    />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=80" />
+    <meta property="og:image:secure_url" content="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=80" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Gedung pusat keuangan syariah modern dan analisis perkembangan sukuk global 2026" />
+
+    <!-- 8. Twitter / X Card Meta Tags (summary_large_image untuk CTR Maksimal di X Feed) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@EkonomiIslamID" />
+    <meta name="twitter:creator" content="@EkonomiIslamID" />
+    <meta name="twitter:title" content="Edukasi &amp; Berita Ekonomi Syariah Terkini | Ekonomi Islam" />
+    <meta
+      name="twitter:description"
+      content="Portal edukasi ekonomi Islam &amp; berita ekonomi syariah terkini. Pelajari hukum paylater, perbedaan mudharabah, dan kalkulator zakat perdagangan akurat."
+    />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=80" />
+    <meta name="twitter:image:alt" content="Gedung pusat pasar keuangan syariah dan literasi muamalah" />
+
+    <!-- 9. Google Fonts: Plus Jakarta Sans & Newsreader -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet" />
+
+    <!-- 10. Data Terstruktur (Structured Data) Schema.org Multi-Entity JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/#organization",
+          "name": "Ekonomi Islam",
+          "alternateName": "Portal Berita dan Edukasi Ekonomi Islam",
+          "url": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=512&h=512&q=80",
+            "width": 512,
+            "height": 512,
+            "caption": "Logo Resmi Portal Ekonomi Islam"
+          },
+          "sameAs": [
+            "https://twitter.com/EkonomiIslamID",
+            "https://www.linkedin.com/company/ekonomi-islam-indonesia",
+            "https://www.instagram.com/ekonomiislam.id"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Support",
+            "areaServed": "ID",
+            "availableLanguage": ["id", "en"]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/#website",
+          "url": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/",
+          "name": "Ekonomi Islam",
+          "alternateName": "Portal Edukasi & Berita Ekonomi Syariah Terkini",
+          "description": "Portal berita, literasi muamalah syariah, modul fiqih kontemporer, dan kalkulator zakat perdagangan online akurat.",
+          "inLanguage": "id-ID",
+          "publisher": {
+            "@id": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/#organization"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "NewsArticle",
+          "@id": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/#news-sukuk-2026",
+          "isPartOf": {
+            "@id": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/#website"
+          },
+          "headline": "Perkembangan Sukuk Global 2026: Penerbitan Green Sukuk Asia Tenggara Tembus Rekor Baru US$ 42 Miliar",
+          "description": "Analisis perkembangan sukuk global 2026 dan penerbitan green sukuk ramah lingkungan berbasis ESG di kawasan Asia Tenggara dan Timur Tengah.",
+          "datePublished": "2026-09-27T08:00:00+07:00",
+          "dateModified": "2026-09-27T20:55:00+07:00",
+          "inLanguage": "id-ID",
+          "mainEntityOfPage": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/#berita",
+          "author": {
+            "@type": "Organization",
+            "name": "Redaksi",
+            "url": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/"
+          },
+          "publisher": {
+            "@id": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/#organization"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=80",
+            "width": 1200,
+            "height": 630,
+            "caption": "Gedung Pusat Keuangan Syariah dan Analisis Pasar Sukuk Global 2026"
+          },
+          "articleSection": "Keuangan Syariah & Sukuk Global"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Bagaimana hukum paylater dalam Islam menurut fatwa fiqih muamalah kontemporer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dalam pandangan fiqih muamalah kontemporer dan fatwa DSN-MUI, skema paylater diperbolehkan (halal) apabila murni menggunakan akad sewa manfaat/jasa (ijarah) atau jual beli margin tetap (murabahah) tanpa denda keterlambatan yang berlipat. Namun, jika terdapat pengenaan bunga pinjaman atau denda keterlambatan yang dijadikan sumber pendapatan keuntungan oleh penyedia layanan, maka skema tersebut haram karena tergolong riba qardh."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Bagaimana cara menghitung zakat perdagangan (zakat perniagaan) dan berapa nisabnya?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Zakat perdagangan (zakat perniagaan / tijarah) diwajibkan bagi pedagang, pebisnis, maupun badan usaha perniagaan yang telah mencapai haul (1 tahun) dan memenuhi nisab 85 gram emas murni (Rp 123.250.000 pada tahun 2026). Formulanya adalah: (Nilai Kas/Bank Usaha + Nilai Persediaan Stok Barang Dagangan + Piutang Dagang Lancar) dikurangi Utang Dagang Jatuh Tempo. Apabila nilai bersih harta perdagangan mencapai atau melampaui nisab, maka wajib dikeluarkan zakatnya sebesar 2,5%."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "WebApplication",
+          "@id": "https://ais-pre-opfzsmdxcpwa4kf4tzqu3d-132901888538.asia-southeast1.run.app/#kalkulator-zakat-perdagangan",
+          "name": "Kalkulator Zakat Perdagangan Online",
+          "applicationCategory": "FinanceApplication",
+          "operatingSystem": "All",
+          "browserRequirements": "Requires JavaScript. Requires HTML5.",
+          "description": "Simulasi interaktif hitung zakat perdagangan (zakat perniagaan / tijarah) otomatis berdasarkan nisab 85 gram emas BAZNAS RI dan standar fikih muamalah.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    }
+    </script>
 
     <!-- Tailwind CSS CDN for instant styling -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -43,12 +214,34 @@
                 850: '#064935',
                 950: '#022c22',
               }
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0', transform: 'translateY(8px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            },
+            animation: {
+              'fade-in': 'fadeIn 350ms cubic-bezier(0.16, 1, 0.3, 1) forwards',
             }
           }
         }
       }
     </script>
     <style>
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(8px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fade-in {
+        animation: fadeIn 350ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
       body {
         font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
         background-color: #faf9f6;
@@ -112,10 +305,11 @@
 
           <!-- Zone 2: Navigation Links (Desktop) -->
           <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-stone-700" aria-label="Navigasi Utama">
-            <a href="#berita" class="hover:text-emerald-900 transition-colors py-1 relative hover:border-b-2 hover:border-emerald-800">Berita</a>
-            <a href="#edukasi" class="hover:text-emerald-900 transition-colors py-1 relative hover:border-b-2 hover:border-emerald-800">Edukasi</a>
-            <a href="#kalkulator-zakat" class="hover:text-emerald-900 transition-colors py-1 relative hover:border-b-2 hover:border-emerald-800">Ziswaf</a>
+            <a href="#berita" class="hover:text-emerald-900 transition-colors py-1 relative hover:border-b-2 hover:border-emerald-800">Berita Syariah</a>
+            <a href="#edukasi" class="hover:text-emerald-900 transition-colors py-1 relative hover:border-b-2 hover:border-emerald-800">Edukasi Muamalah</a>
+            <a href="#kalkulator-zakat" class="hover:text-emerald-900 transition-colors py-1 relative hover:border-b-2 hover:border-emerald-800">Kalkulator Zakat</a>
             <a href="#halal-ekosistem" class="hover:text-emerald-900 transition-colors py-1 relative hover:border-b-2 hover:border-emerald-800">Halal Ekosistem</a>
+            <a href="#faq" class="hover:text-emerald-900 transition-colors py-1 relative hover:border-b-2 hover:border-emerald-800">FAQ Fikih</a>
             <button onclick="window.openConsultModal()" class="hover:text-emerald-900 transition-colors py-1 cursor-pointer">Tanya Pakar</button>
           </nav>
 
@@ -185,7 +379,8 @@
           <a href="#edukasi" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-stone-50 hover:text-emerald-900 transition-colors">Edukasi Muamalah</a>
           <a href="#kalkulator-zakat" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-stone-50 hover:text-emerald-900 transition-colors">Kalkulator Ziswaf</a>
           <a href="#halal-ekosistem" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-stone-50 hover:text-emerald-900 transition-colors">Halal Ekosistem</a>
-          <button onclick="window.openConsultModal(); toggleMobileMenu();" class="text-left py-2 px-3 rounded-lg hover:bg-stone-50 hover:text-emerald-900 transition-colors">Tanya Pakar Syariah</button>
+          <a href="#faq" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-stone-50 hover:text-emerald-900 transition-colors">FAQ Fikih &amp; Zakat</a>
+          <button onclick="window.openConsultModal(); toggleMobileMenu();" class="text-left py-2 px-3 rounded-lg hover:bg-stone-50 hover:text-emerald-950 transition-colors">Tanya Pakar Syariah</button>
         </nav>
 
         <div class="pt-2 border-t border-stone-100 flex items-center justify-between text-xs text-stone-500">
@@ -230,9 +425,9 @@
                 <span>6 min read</span>
               </div>
 
-              <!-- Main Headline -->
+              <!-- Main Headline (Single h1 Target Kata Kunci Primer: Perkembangan Sukuk Global 2026 & Edukasi Ekonomi Syariah) -->
               <h1 class="text-3xl sm:text-4xl lg:text-5xl font-serif-heading font-medium tracking-tight text-white leading-tight text-balance">
-                Perkembangan Sukuk Global 2026: Penerbitan Green Sukuk Asia Tenggara Tembus Rekor Baru US$ 42 Miliar
+                Perkembangan Sukuk Global 2026: Penerbitan Green Sukuk Asia Tenggara &amp; Edukasi Ekonomi Syariah Terkini
               </h1>
 
               <!-- Narrative Deck / Excerpt -->
@@ -246,7 +441,7 @@
                   onclick="openHeroArticleModal()"
                   class="px-6 py-3 text-sm font-semibold text-emerald-950 bg-emerald-300 hover:bg-emerald-200 rounded-lg transition-colors shadow-sm flex items-center gap-2 cursor-pointer"
                 >
-                  <span>Baca Selengkapnya</span>
+                  <span>Baca Analisis Green Sukuk Selengkapnya</span>
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
@@ -258,7 +453,7 @@
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
-                  <span>Jelajahi Literasi Sukuk</span>
+                  <span>Jelajahi Edukasi &amp; Literasi Sukuk</span>
                 </a>
               </div>
             </div>
@@ -307,9 +502,9 @@
         <!-- Section Header with Category Filter -->
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 pb-8 border-b border-stone-200">
           <div>
-            <div class="text-xs font-semibold text-emerald-800 uppercase tracking-widest mb-1">Kabar & Analisis</div>
+            <div class="text-xs font-semibold text-emerald-800 uppercase tracking-widest mb-1">Kabar &amp; Analisis Finansial</div>
             <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-emerald-950 font-serif-heading">
-              Berita & Wawasan Terkini
+              Berita Ekonomi Syariah Terkini &amp; Wawasan Pasar Global
             </h2>
             <p class="text-sm text-stone-600 mt-1 max-w-xl">
               Perkembangan pasar keuangan syariah, perbankan islam, regulasi fatwa muamalah, dan ekosistem industri halal global.
@@ -319,7 +514,7 @@
           <!-- Filter Tabs (Segmented Control) -->
           <div class="flex items-center gap-1.5 p-1 bg-stone-200/70 rounded-lg self-start md:self-auto" role="tablist">
             <button onclick="filterNews('semua')" id="tab-semua" class="news-tab px-3.5 py-1.5 text-xs font-medium rounded-md bg-white text-emerald-950 shadow-xs transition-colors">
-              Semua
+              Semua Berita
             </button>
             <button onclick="filterNews('global')" id="tab-global" class="news-tab px-3.5 py-1.5 text-xs font-medium rounded-md text-stone-600 hover:text-emerald-950 transition-colors">
               Global
@@ -336,17 +531,19 @@
         <!-- News Grid: 1 column on mobile, 3 columns on desktop -->
         <div id="newsGrid" class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mt-8">
           <!-- Card 1: Global -->
-          <article data-category="global" class="news-card group bg-white rounded-xl border border-stone-200/90 overflow-hidden shadow-xs hover:shadow-md transition-all duration-200 flex flex-col">
-            <!-- Thumbnail Visual Fallback with Geometric Elegance -->
-            <div class="h-48 bg-gradient-to-br from-emerald-900 via-teal-900 to-slate-900 p-6 flex flex-col justify-between relative overflow-hidden text-emerald-100">
-              <div class="absolute inset-0 opacity-15 geometric-pattern pointer-events-none"></div>
-              <div class="flex justify-between items-center text-xs text-emerald-200/80 relative z-10">
-                <span class="font-mono text-[11px] tracking-wider uppercase">TRANS-BORDER LIQUIDITY</span>
-                <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
-              </div>
-              <div class="relative z-10">
-                <span class="text-xs uppercase tracking-wider font-semibold text-emerald-300">PASAR UANG TELUK - ASEAN</span>
-                <p class="text-sm font-medium text-white line-clamp-2 mt-1">Kliring Syariah Multi-Valuta Resmi Beroperasi</p>
+          <article data-category="global" class="news-card group bg-white rounded-xl border border-stone-200/90 overflow-hidden shadow-xs hover:shadow-md transition-all duration-300 ease-out flex flex-col will-change-transform animate-fade-in">
+            <!-- Visual Thumbnail with Lazy Loading & SEO Alt Attribute (Makhluk Tidak Bernyawa: Gedung Arsitektur Finansial) -->
+            <div class="h-48 overflow-hidden relative bg-stone-900">
+              <img
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&h=360&q=80"
+                alt="Gedung pencakar langit pusat pasar keuangan syariah dan perbankan internasional"
+                loading="lazy"
+                width="600"
+                height="360"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div class="absolute top-3 left-3 bg-emerald-950/80 backdrop-blur-xs text-emerald-200 text-[10px] font-mono px-2 py-0.5 rounded">
+                TRANS-BORDER LIQUIDITY
               </div>
             </div>
 
@@ -372,9 +569,9 @@
               </div>
 
               <div class="pt-4 border-t border-stone-100 flex items-center justify-between">
-                <span class="text-xs text-stone-500">Oleh Ahmad Fauzan, M.Ec</span>
+                <span class="text-xs text-stone-500">Oleh Redaksi</span>
                 <button onclick="openNewsArticle(1)" class="text-xs font-semibold text-emerald-800 hover:text-emerald-950 flex items-center gap-1 cursor-pointer">
-                  <span>Baca Artikel</span>
+                  <span>Baca Analisis Pasar Uang Global</span>
                   <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                   </svg>
@@ -384,17 +581,19 @@
           </article>
 
           <!-- Card 2: Lokal -->
-          <article data-category="lokal" class="news-card group bg-white rounded-xl border border-stone-200/90 overflow-hidden shadow-xs hover:shadow-md transition-all duration-200 flex flex-col">
-            <!-- Thumbnail Visual Fallback -->
-            <div class="h-48 bg-gradient-to-br from-emerald-950 via-emerald-800 to-stone-900 p-6 flex flex-col justify-between relative overflow-hidden text-emerald-100">
-              <div class="absolute inset-0 opacity-15 geometric-pattern pointer-events-none"></div>
-              <div class="flex justify-between items-center text-xs text-emerald-200/80 relative z-10">
-                <span class="font-mono text-[11px] tracking-wider uppercase">FINTECH & UMKM</span>
-                <span class="w-2 h-2 rounded-full bg-teal-400"></span>
-              </div>
-              <div class="relative z-10">
-                <span class="text-xs uppercase tracking-wider font-semibold text-teal-300">INKLUSI KEUANGAN RI</span>
-                <p class="text-sm font-medium text-white line-clamp-2 mt-1">Digitalisasi Pembiayaan Mikro Syariah Nasional</p>
+          <article data-category="lokal" class="news-card group bg-white rounded-xl border border-stone-200/90 overflow-hidden shadow-xs hover:shadow-md transition-all duration-300 ease-out flex flex-col will-change-transform animate-fade-in">
+            <!-- Visual Thumbnail with Lazy Loading & SEO Alt Attribute (Makhluk Tidak Bernyawa: Uang Tunai & Modal Finansial) -->
+            <div class="h-48 overflow-hidden relative bg-stone-900">
+              <img
+                src="https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&w=600&h=360&q=80"
+                alt="Tumpukan lembaran uang tunai kertas dan instrumen permodalan inklusi keuangan syariah UMKM"
+                loading="lazy"
+                width="600"
+                height="360"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div class="absolute top-3 left-3 bg-teal-950/80 backdrop-blur-xs text-teal-200 text-[10px] font-mono px-2 py-0.5 rounded">
+                FINTECH &amp; UMKM
               </div>
             </div>
 
@@ -420,9 +619,9 @@
               </div>
 
               <div class="pt-4 border-t border-stone-100 flex items-center justify-between">
-                <span class="text-xs text-stone-500">Oleh Siti Rahmawati, S.E.I</span>
+                <span class="text-xs text-stone-500">Oleh Redaksi</span>
                 <button onclick="openNewsArticle(2)" class="text-xs font-semibold text-emerald-800 hover:text-emerald-950 flex items-center gap-1 cursor-pointer">
-                  <span>Baca Artikel</span>
+                  <span>Baca Analisis Inklusi Keuangan Syariah</span>
                   <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                   </svg>
@@ -432,17 +631,19 @@
           </article>
 
           <!-- Card 3: Regulasi -->
-          <article data-category="regulasi" class="news-card group bg-white rounded-xl border border-stone-200/90 overflow-hidden shadow-xs hover:shadow-md transition-all duration-200 flex flex-col">
-            <!-- Thumbnail Visual Fallback -->
-            <div class="h-48 bg-gradient-to-br from-teal-950 via-emerald-900 to-amber-950 p-6 flex flex-col justify-between relative overflow-hidden text-emerald-100">
-              <div class="absolute inset-0 opacity-15 geometric-pattern pointer-events-none"></div>
-              <div class="flex justify-between items-center text-xs text-emerald-200/80 relative z-10">
-                <span class="font-mono text-[11px] tracking-wider uppercase">FATWA & TATA KELOLA</span>
-                <span class="w-2 h-2 rounded-full bg-amber-400"></span>
-              </div>
-              <div class="relative z-10">
-                <span class="text-xs uppercase tracking-wider font-semibold text-amber-300">DSN-MUI 2026</span>
-                <p class="text-sm font-medium text-white line-clamp-2 mt-1">Standarisasi Akuntansi Aset Wakaf Produktif</p>
+          <article data-category="regulasi" class="news-card group bg-white rounded-xl border border-stone-200/90 overflow-hidden shadow-xs hover:shadow-md transition-all duration-300 ease-out flex flex-col will-change-transform animate-fade-in">
+            <!-- Visual Thumbnail with Lazy Loading & SEO Alt Attribute (Makhluk Tidak Bernyawa: Palu Hakim Kayu / Gavel & Regulasi Syariah) -->
+            <div class="h-48 overflow-hidden relative bg-stone-900">
+              <img
+                src="https://images.unsplash.com/photo-1589216532372-1c2a367900d9?auto=format&fit=crop&w=600&h=360&q=80"
+                alt="Palu hakim kayu di atas sound block untuk regulasi dan kepatuhan fatwa syariah DSN-MUI 2026"
+                loading="lazy"
+                width="600"
+                height="360"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div class="absolute top-3 left-3 bg-amber-950/80 backdrop-blur-xs text-amber-200 text-[10px] font-mono px-2 py-0.5 rounded">
+                FATWA &amp; REGULASI
               </div>
             </div>
 
@@ -468,9 +669,9 @@
               </div>
 
               <div class="pt-4 border-t border-stone-100 flex items-center justify-between">
-                <span class="text-xs text-stone-500">Oleh Dr. Hamdan Syukri</span>
+                <span class="text-xs text-stone-500">Oleh Redaksi</span>
                 <button onclick="openNewsArticle(3)" class="text-xs font-semibold text-emerald-800 hover:text-emerald-950 flex items-center gap-1 cursor-pointer">
-                  <span>Baca Artikel</span>
+                  <span>Baca Rincian Fatwa DSN-MUI</span>
                   <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                   </svg>
@@ -487,7 +688,7 @@
           <div class="max-w-3xl mb-10">
             <div class="text-xs font-semibold text-emerald-800 uppercase tracking-widest mb-1">Klinik Literasi Muamalah</div>
             <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-emerald-950 font-serif-heading">
-              Memahami Fiqih Transaksi & Keuangan Syariah
+              Edukasi Ekonomi Islam &amp; Literasi Fikih Muamalah
             </h2>
             <p class="text-sm text-stone-600 mt-2">
               Modul edukasi ringkas dan aplikatif untuk membantu masyarakat membedakan transaksi halal yang berkah dari jerat riba, ketidakpastian (gharar), dan spekulasi terlarang (maisir).
@@ -505,14 +706,14 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M14 9V5a3 3 0 00-3-3l-4 9v11h11.28a2 2 0 002-1.7l1.38-9a2 2 0 00-2-2.3zM7 22H4a2 2 0 01-2-2v-7a2 2 0 012-2h3" />
                   </svg>
                 </div>
-                <div class="text-[11px] font-semibold text-emerald-800 uppercase tracking-wider mb-1">Kemitraan Modal & Usaha</div>
-                <h3 class="text-lg font-bold text-stone-900 mb-2">Mengenal Akad Mudharabah</h3>
+                <div class="text-[11px] font-semibold text-emerald-800 uppercase tracking-wider mb-1">Kemitraan Modal &amp; Jual Beli</div>
+                <h3 class="text-lg font-bold text-stone-900 mb-2">Perbedaan Murabahah dan Mudharabah</h3>
                 <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
-                  Kerjasama pembiayaan di mana pemilik modal (shahibul mal) menyediakan 100% dana, dan pengelola (mudharib) mengoperasikan usaha dengan nisbah bagi hasil yang disepakati di awal.
+                  Membedah komparasi akad jual-beli margin keuntungan tetap (murabahah) versus kemitraan modal dan bagi hasil risiko murni (mudharabah) dalam bisnis syariah.
                 </p>
               </div>
               <button onclick="openEducationModal('mudharabah')" class="mt-5 text-xs font-semibold text-emerald-800 hover:text-emerald-950 flex items-center gap-1.5 pt-3 border-t border-stone-100 cursor-pointer">
-                <span>Pelajari Kaidah Fiqih</span>
+                <span>Pelajari Kaidah Fikih Murabahah &amp; Mudharabah</span>
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                 </svg>
@@ -529,14 +730,14 @@
                     <line x1="2" y1="10" x2="22" y2="10" stroke-width="1.75"/>
                   </svg>
                 </div>
-                <div class="text-[11px] font-semibold text-emerald-800 uppercase tracking-wider mb-1">Konsumsi & Pinjaman</div>
-                <h3 class="text-lg font-bold text-stone-900 mb-2">Fikih Paylater & Pinjol</h3>
+                <div class="text-[11px] font-semibold text-emerald-800 uppercase tracking-wider mb-1">Konsumsi &amp; Finansial Digital</div>
+                <h3 class="text-lg font-bold text-stone-900 mb-2">Hukum Paylater dalam Islam &amp; Pinjol Syariah</h3>
                 <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
-                  Batasan syar'i antara biaya jasa administrasi (ujrah) yang diperbolehkan dan denda keterlambatan berbunga yang terjerumus ke dalam dosa riba qardh.
+                  Batasan syar'i antara biaya jasa administrasi riil (ujrah) yang diperbolehkan dengan denda keterlambatan berbunga yang terjerumus ke dosa riba nasi'ah.
                 </p>
               </div>
               <button onclick="openEducationModal('paylater')" class="mt-5 text-xs font-semibold text-emerald-800 hover:text-emerald-950 flex items-center gap-1.5 pt-3 border-t border-stone-100 cursor-pointer">
-                <span>Pelajari Kaidah Fiqih</span>
+                <span>Pelajari Kaidah Fikih Paylater Syariah</span>
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                 </svg>
@@ -554,13 +755,13 @@
                   </svg>
                 </div>
                 <div class="text-[11px] font-semibold text-emerald-800 uppercase tracking-wider mb-1">Prinsip Larangan Transaksi</div>
-                <h3 class="text-lg font-bold text-stone-900 mb-2">Apa itu Gharar & Maisir?</h3>
+                <h3 class="text-lg font-bold text-stone-900 mb-2">Kaidah Gharar &amp; Maisir dalam Fikih Muamalah</h3>
                 <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
-                  Membedah risiko komersial wajar versus ketidakpastian terlarang (gharar fahisy) dan spekulasi perjudian zero-sum game yang merugikan pihak lain.
+                  Membedah risiko komersial wajar versus ketidakpastian manipulatif (gharar fahisy) dan spekulasi perjudian zero-sum game yang merugikan pihak lain.
                 </p>
               </div>
               <button onclick="openEducationModal('gharar')" class="mt-5 text-xs font-semibold text-emerald-800 hover:text-emerald-950 flex items-center gap-1.5 pt-3 border-t border-stone-100 cursor-pointer">
-                <span>Pelajari Kaidah Fiqih</span>
+                <span>Pelajari Kaidah Larangan Gharar &amp; Maisir</span>
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                 </svg>
@@ -639,7 +840,7 @@
         </div>
       </section>
 
-      <!-- SECTION 3: KALKULATOR ZAKAT PROFESI MINI -->
+      <!-- SECTION 3: KALKULATOR ZAKAT PERDAGANGAN (ZAKAT TIJARAH) MINI -->
       <section id="kalkulator-zakat" class="py-14 sm:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="bg-gradient-to-br from-emerald-950 via-emerald-900 to-teal-950 rounded-2xl p-6 sm:p-10 text-white shadow-xl relative overflow-hidden">
           <div class="absolute inset-0 opacity-10 islamic-lattice pointer-events-none"></div>
@@ -656,66 +857,91 @@
                   <span>Simulasi Muamalah Syariah</span>
                 </div>
                 <h2 class="text-2xl sm:text-3xl font-bold font-serif-heading text-white">
-                  Kalkulator Zakat Profesi (Penghasilan)
+                  Kalkulator Zakat Perdagangan (Zakat Tijarah)
                 </h2>
                 <p class="text-xs sm:text-sm text-emerald-100/80 mt-1">
-                  Hitung kewajiban zakat penghasilan bulanan Anda sesuai Fatwa MUI No. 3 Tahun 2003 dengan nisab 85 gram emas per tahun (2,5%).
+                  Hitung kewajiban zakat perniagaan/perdagangan tahunan bisnis Anda (per haul) berlandaskan QS. Al-Baqarah: 267 dan standar BAZNAS RI dengan nisab 85 gram emas murni (tarif 2,5%).
                 </p>
               </div>
 
               <!-- Form Inputs -->
               <form id="zakatForm" onsubmit="event.preventDefault(); calculateZakat();" class="space-y-4">
+                <!-- Input 1: Kas & Rekening Bank -->
                 <div>
-                  <label for="monthlyIncome" class="block text-xs font-medium text-emerald-200 mb-1">
-                    Pendapatan Bulanan Tetap (Gaji Pokok & Tunjangan)
+                  <label for="cashEquivalents" class="block text-xs font-medium text-emerald-200 mb-1">
+                    1. Uang Kas &amp; Saldo Bank Operasional Usaha
                   </label>
                   <div class="relative">
                     <span class="absolute left-3.5 top-2.5 text-xs text-emerald-400 font-semibold">Rp</span>
                     <input
                       type="text"
-                      id="monthlyIncome"
-                      value="12.500.000"
+                      id="cashEquivalents"
+                      value="45.000.000"
                       oninput="formatCurrencyInput(this)"
                       class="w-full pl-11 pr-4 py-2.5 bg-emerald-900/60 border border-emerald-700/60 rounded-lg text-sm text-white placeholder-emerald-400 focus:outline-hidden focus:ring-2 focus:ring-emerald-400"
                       placeholder="0"
                       required
                     />
                   </div>
+                  <p class="text-[11px] text-emerald-300/70 mt-1">Kas di tangan (kasir/toko) dan tabungan bank yang khusus dialokasikan untuk usaha.</p>
                 </div>
 
+                <!-- Input 2: Stok Persediaan Barang -->
                 <div>
-                  <label for="additionalIncome" class="block text-xs font-medium text-emerald-200 mb-1">
-                    Pendapatan Tambahan / Bonus / Freelance (Opsional)
+                  <label for="inventoryStock" class="block text-xs font-medium text-emerald-200 mb-1">
+                    2. Nilai Stok / Persediaan Barang Dagangan
                   </label>
                   <div class="relative">
                     <span class="absolute left-3.5 top-2.5 text-xs text-emerald-400 font-semibold">Rp</span>
                     <input
                       type="text"
-                      id="additionalIncome"
-                      value="2.000.000"
+                      id="inventoryStock"
+                      value="120.000.000"
                       oninput="formatCurrencyInput(this)"
                       class="w-full pl-11 pr-4 py-2.5 bg-emerald-900/60 border border-emerald-700/60 rounded-lg text-sm text-white placeholder-emerald-400 focus:outline-hidden focus:ring-2 focus:ring-emerald-400"
                       placeholder="0"
+                      required
                     />
                   </div>
+                  <p class="text-[11px] text-emerald-300/70 mt-1">Nilai persediaan barang siap jual dihitung berdasarkan harga pokok perolehan / modal saat haul.</p>
                 </div>
 
+                <!-- Input 3: Piutang Lancar Usaha -->
                 <div>
-                  <label for="basicExpenses" class="block text-xs font-medium text-emerald-200 mb-1">
-                    Pengeluaran Kebutuhan Pokok Dasar (Sandang, Pangan, Papan)
+                  <label for="receivables" class="block text-xs font-medium text-emerald-200 mb-1">
+                    3. Piutang Dagang Lancar yang Diharapkan Tertagih
                   </label>
                   <div class="relative">
                     <span class="absolute left-3.5 top-2.5 text-xs text-emerald-400 font-semibold">Rp</span>
                     <input
                       type="text"
-                      id="basicExpenses"
-                      value="4.000.000"
+                      id="receivables"
+                      value="25.000.000"
                       oninput="formatCurrencyInput(this)"
                       class="w-full pl-11 pr-4 py-2.5 bg-emerald-900/60 border border-emerald-700/60 rounded-lg text-sm text-white placeholder-emerald-400 focus:outline-hidden focus:ring-2 focus:ring-emerald-400"
                       placeholder="0"
                     />
                   </div>
-                  <p class="text-[11px] text-emerald-300/70 mt-1">Menggunakan metode netto (dianjurkan para ulama fikih muamalah kontemporer).</p>
+                  <p class="text-[11px] text-emerald-300/70 mt-1">Tagihan kepada konsumen/klien yang dapat dicairkan (bukan piutang macet).</p>
+                </div>
+
+                <!-- Input 4: Utang Jangka Pendek Jatuh Tempo (Pengurang) -->
+                <div>
+                  <label for="currentLiabilities" class="block text-xs font-medium text-emerald-200 mb-1">
+                    4. Utang Dagang Jatuh Tempo / Kewajiban Segera (Pengurang)
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-3.5 top-2.5 text-xs text-emerald-400 font-semibold">Rp</span>
+                    <input
+                      type="text"
+                      id="currentLiabilities"
+                      value="40.000.000"
+                      oninput="formatCurrencyInput(this)"
+                      class="w-full pl-11 pr-4 py-2.5 bg-emerald-900/60 border border-emerald-700/60 rounded-lg text-sm text-white placeholder-emerald-400 focus:outline-hidden focus:ring-2 focus:ring-emerald-400"
+                      placeholder="0"
+                    />
+                  </div>
+                  <p class="text-[11px] text-emerald-300/70 mt-1">Utang tempo kepada supplier barang atau cicilan operasional jatuh tempo dalam tahun buku.</p>
                 </div>
 
                 <div class="pt-2 flex items-center gap-3">
@@ -726,13 +952,13 @@
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                     </svg>
-                    <span>Hitung Zakat Sekarang</span>
+                    <span>Hitung Zakat Perdagangan Sekarang</span>
                   </button>
 
                   <button
                     type="button"
                     onclick="resetZakatCalculator()"
-                    class="px-4 py-3 bg-emerald-900/80 hover:bg-emerald-800 text-emerald-200 text-xs font-medium rounded-lg border border-emerald-700/60 transition-colors"
+                    class="px-4 py-3 bg-emerald-900/80 hover:bg-emerald-800 text-emerald-200 text-xs font-medium rounded-lg border border-emerald-700/60 transition-colors cursor-pointer"
                   >
                     Reset Form
                   </button>
@@ -748,7 +974,7 @@
                   <div class="flex items-center gap-2">
                     <span id="zakatStatusIndicator" class="w-3 h-3 rounded-full bg-emerald-400"></span>
                     <span id="zakatStatusText" class="text-xs font-bold uppercase tracking-wider text-emerald-300">
-                      Wajib Menunaikan Zakat
+                      Wajib Menunaikan Zakat Perdagangan
                     </span>
                   </div>
                   <span class="text-xs text-emerald-300/80 font-mono">Tarif: 2.5%</span>
@@ -756,32 +982,44 @@
 
                 <!-- Primary Amount Highlight -->
                 <div>
-                  <span class="text-xs text-emerald-300 font-medium block mb-1">Kewajiban Zakat yang Harus Dikeluarkan:</span>
+                  <span class="text-xs text-emerald-300 font-medium block mb-1">Kewajiban Zakat yang Wajib Dikeluarkan (Per Haul / Tahun):</span>
                   <div id="zakatAmountDisplay" class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight tabular-nums">
-                    Rp 262.500 <span class="text-sm font-normal text-emerald-300">/ bulan</span>
+                    Rp 3.750.000 <span class="text-sm font-normal text-emerald-300">/ tahun</span>
                   </div>
                   <p id="zakatExplanation" class="text-xs text-emerald-200/90 mt-2 leading-relaxed">
-                    Penghasilan bersih Anda mencapai Rp 10.500.000/bulan, melampaui batas nisab bulanan (Rp 10.270.833). Menunaikan zakat membersihkan dan memberkahi harta.
+                    Harta bersih perniagaan Anda telah mencapai atau melampaui batas nisab 85 gram emas. Menunaikan zakat tijarah menyucikan perputaran roda usaha dan mendatangkan keberkahan.
                   </p>
                 </div>
 
                 <!-- Tabular Breakdown -->
                 <div class="space-y-2 pt-2 border-t border-emerald-800/80 text-xs text-emerald-200">
                   <div class="flex justify-between">
-                    <span class="text-emerald-300/80">Total Penerimaan:</span>
-                    <span id="summaryGross" class="font-medium text-white tabular-nums">Rp 14.500.000</span>
+                    <span class="text-emerald-300/80">Kas &amp; Saldo Bank Usaha:</span>
+                    <span id="summaryCash" class="font-medium text-white tabular-nums">Rp 45.000.000</span>
                   </div>
                   <div class="flex justify-between">
-                    <span class="text-emerald-300/80">Pengeluaran Pokok:</span>
-                    <span id="summaryExpenses" class="font-medium text-white tabular-nums">Rp 4.000.000</span>
+                    <span class="text-emerald-300/80">Nilai Persediaan Barang:</span>
+                    <span id="summaryInventory" class="font-medium text-white tabular-nums">Rp 120.000.000</span>
                   </div>
-                  <div class="flex justify-between font-semibold text-white">
-                    <span>Penghasilan Bersih (Kena Zakat):</span>
-                    <span id="summaryNet" class="tabular-nums text-emerald-300">Rp 10.500.000</span>
+                  <div class="flex justify-between">
+                    <span class="text-emerald-300/80">Piutang Dagang Lancar:</span>
+                    <span id="summaryReceivables" class="font-medium text-white tabular-nums">Rp 25.000.000</span>
+                  </div>
+                  <div class="flex justify-between font-semibold text-emerald-200 pt-1 border-t border-emerald-800/40">
+                    <span>Total Aset Lancar Perdagangan:</span>
+                    <span id="summaryGrossAssets" class="tabular-nums text-white">Rp 190.000.000</span>
+                  </div>
+                  <div class="flex justify-between text-amber-300/90">
+                    <span>Utang Dagang Jatuh Tempo (Pengurang):</span>
+                    <span id="summaryLiabilities" class="font-medium tabular-nums">- Rp 40.000.000</span>
+                  </div>
+                  <div class="flex justify-between font-bold text-white pt-1 border-t border-emerald-800/60 text-sm">
+                    <span>Harta Bersih Kena Zakat:</span>
+                    <span id="summaryNetAssets" class="tabular-nums text-emerald-300">Rp 150.000.000</span>
                   </div>
                   <div class="flex justify-between text-[11px] text-emerald-300/70 pt-1 border-t border-emerald-800/40">
-                    <span>Acuan Nisab Emas Bulanan (85g / 12):</span>
-                    <span class="tabular-nums">Rp 10.270.833</span>
+                    <span>Acuan Nisab Emas (85g × Rp 1.450.000):</span>
+                    <span id="summaryNisab" class="tabular-nums">Rp 123.250.000</span>
                   </div>
                 </div>
 
@@ -794,7 +1032,7 @@
                     <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
                     </svg>
-                    <span>Salin Rincian</span>
+                    <span>Salin Rincian Zakat</span>
                   </button>
 
                   <button
@@ -884,6 +1122,61 @@
           </div>
         </div>
       </section>
+
+      <!-- SECTION 5: TANYA JAWAB FIKIH MUAMALAH (FAQ) - KEPATUHAN SCHEMA FAQPAGE -->
+      <section id="faq" class="py-14 sm:py-20 bg-stone-100/70 border-t border-stone-200" aria-labelledby="faq-heading">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center mb-10">
+            <span class="text-xs font-semibold text-emerald-800 uppercase tracking-widest block mb-1">Tanya Jawab Syariah</span>
+            <h2 id="faq-heading" class="text-2xl sm:text-3xl font-bold font-serif-heading text-emerald-950">
+              Pertanyaan Populer Fikih Muamalah &amp; Zakat
+            </h2>
+            <p class="text-sm text-stone-600 mt-2 max-w-xl mx-auto">
+              Jawaban ringkas dan otoritatif bersumber langsung dari Fatwa Dewan Syari'ah Nasional Majelis Ulama Indonesia (DSN-MUI) dan literatur fiqih kontemporer.
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            <!-- FAQ 1: Hukum Paylater dalam Islam -->
+            <details class="group bg-white rounded-xl border border-stone-200/90 p-5 shadow-xs transition-all" open>
+              <summary class="font-bold text-base text-stone-900 cursor-pointer flex justify-between items-center group-hover:text-emerald-900">
+                <span>Bagaimana hukum paylater dalam Islam menurut fatwa fiqih muamalah kontemporer?</span>
+                <span class="text-emerald-700 text-lg font-bold ml-2 transition-transform group-open:rotate-45">+</span>
+              </summary>
+              <div class="text-sm text-stone-600 mt-3 leading-relaxed border-t border-stone-100 pt-3 space-y-2">
+                <p>
+                  Dalam pandangan fiqih muamalah kontemporer dan fatwa DSN-MUI, skema paylater diperbolehkan (halal) apabila murni menggunakan akad sewa manfaat/jasa (ijarah) atau jual beli margin tetap (murabahah) tanpa denda keterlambatan yang berlipat. Namun, jika terdapat pengenaan bunga pinjaman atau denda keterlambatan yang dijadikan sumber pendapatan keuntungan oleh penyedia layanan, maka skema tersebut haram karena tergolong riba qardh.
+                </p>
+                <div class="pt-2 text-xs text-emerald-800 font-semibold">
+                  <a href="#edukasi" onclick="openEducationModal('paylater')" class="inline-flex items-center gap-1 underline hover:text-emerald-950">
+                    <span>Pelajari rincian kaidah fiqih paylater dan pinjaman syariah</span>
+                    <span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </details>
+
+            <!-- FAQ 2: Nisab dan Perhitungan Zakat Perdagangan Online -->
+            <details class="group bg-white rounded-xl border border-stone-200/90 p-5 shadow-xs transition-all">
+              <summary class="font-bold text-base text-stone-900 cursor-pointer flex justify-between items-center group-hover:text-emerald-900">
+                <span>Bagaimana cara menghitung zakat perdagangan (zakat perniagaan) dan berapa nisabnya?</span>
+                <span class="text-emerald-700 text-lg font-bold ml-2 transition-transform group-open:rotate-45">+</span>
+              </summary>
+              <div class="text-sm text-stone-600 mt-3 leading-relaxed border-t border-stone-100 pt-3 space-y-2">
+                <p>
+                  Zakat perdagangan (zakat perniagaan / tijarah) diwajibkan bagi pedagang, pebisnis, maupun badan usaha perniagaan yang telah mencapai haul (1 tahun) dan memenuhi nisab 85 gram emas murni (Rp 123.250.000 pada tahun 2026). Formulanya adalah: (Nilai Kas/Bank Usaha + Nilai Persediaan Stok Barang Dagangan + Piutang Dagang Lancar) dikurangi Utang Dagang Jatuh Tempo. Apabila nilai bersih harta perdagangan mencapai atau melampaui nisab, maka wajib dikeluarkan zakatnya sebesar 2,5%.
+                </p>
+                <div class="pt-2 text-xs text-emerald-800 font-semibold">
+                  <a href="#kalkulator-zakat" class="inline-flex items-center gap-1 underline hover:text-emerald-950">
+                    <span>Hitung kewajiban zakat perniagaan Anda sekarang menggunakan Kalkulator Zakat Perdagangan Online</span>
+                    <span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- FOOTER -->
@@ -920,7 +1213,7 @@
             <ul class="space-y-2 text-xs">
               <li><a href="#berita" class="hover:text-emerald-400 transition-colors">Berita Terkini</a></li>
               <li><a href="#edukasi" class="hover:text-emerald-400 transition-colors">Modul Literasi Fiqih</a></li>
-              <li><a href="#kalkulator-zakat" class="hover:text-emerald-400 transition-colors">Kalkulator Zakat Profesi</a></li>
+              <li><a href="#kalkulator-zakat" class="hover:text-emerald-400 transition-colors">Kalkulator Zakat Perdagangan</a></li>
               <li><a href="#halal-ekosistem" class="hover:text-emerald-400 transition-colors">Halal Value Chain</a></li>
               <li><a href="#" onclick="window.openConsultModal(); return false;" class="hover:text-emerald-400 transition-colors">Tanya Dewan Pakar</a></li>
             </ul>
@@ -1117,10 +1410,10 @@
         }, 3000);
       }
 
-      // 3. Kalkulator Zakat Profesi Logic
+      // 3. Kalkulator Zakat Perdagangan (Zakat Tijarah) Logic
       function parseNumberFromIdr(str) {
         if (!str) return 0;
-        return parseFloat(str.replace(/\./g, '').replace(/,/g, '')) || 0;
+        return parseFloat(str.toString().replace(/\./g, '').replace(/,/g, '')) || 0;
       }
 
       function formatIdr(num) {
@@ -1137,69 +1430,102 @@
       }
 
       function calculateZakat() {
-        const monthly = parseNumberFromIdr(document.getElementById('monthlyIncome').value);
-        const additional = parseNumberFromIdr(document.getElementById('additionalIncome').value);
-        const expenses = parseNumberFromIdr(document.getElementById('basicExpenses').value);
+        const cashInput = document.getElementById('cashEquivalents');
+        const inventoryInput = document.getElementById('inventoryStock');
+        const receivablesInput = document.getElementById('receivables');
+        const liabilitiesInput = document.getElementById('currentLiabilities');
 
-        const totalIncome = monthly + additional;
-        const netIncome = Math.max(0, totalIncome - expenses);
+        const cash = cashInput ? parseNumberFromIdr(cashInput.value) : 0;
+        const inventory = inventoryInput ? parseNumberFromIdr(inventoryInput.value) : 0;
+        const receivables = receivablesInput ? parseNumberFromIdr(receivablesInput.value) : 0;
+        const liabilities = liabilitiesInput ? parseNumberFromIdr(liabilitiesInput.value) : 0;
 
-        // Nisab calculation: 85g gold * Rp 1.450.000 / 12 months = Rp 10.270.833
-        const monthlyNisab = (85 * 1450000) / 12;
+        // Total Aktiva Lancar Perdagangan (Kas + Persediaan Stok + Piutang Lancar)
+        const grossAssets = cash + inventory + receivables;
+        // Harta Bersih Perniagaan yang Dikenakan Zakat (Aktiva Lancar - Utang Dagang Jatuh Tempo)
+        const netAssets = Math.max(0, grossAssets - liabilities);
 
-        const isObligated = netIncome >= monthlyNisab;
-        const zakatDue = isObligated ? netIncome * 0.025 : 0;
+        // Standar Nisab Emas: 85 gram emas per tahun (Rp 1.450.000 / gram = Rp 123.250.000)
+        const goldPricePerGram = 1450000;
+        const annualNisab = 85 * goldPricePerGram;
+
+        // Syarat Wajib: Harta Bersih Usaha >= Nisab Tahunan
+        const isObligated = netAssets >= annualNisab;
+        // Tarif Zakat Perdagangan: 2.5% per tahun (haul)
+        const zakatDue = isObligated ? netAssets * 0.025 : 0;
 
         const statusIndicator = document.getElementById('zakatStatusIndicator');
         const statusText = document.getElementById('zakatStatusText');
         const amountDisplay = document.getElementById('zakatAmountDisplay');
         const explanation = document.getElementById('zakatExplanation');
 
-        document.getElementById('summaryGross').innerText = formatIdr(totalIncome);
-        document.getElementById('summaryExpenses').innerText = formatIdr(expenses);
-        document.getElementById('summaryNet').innerText = formatIdr(netIncome);
+        // Pembaruan Rincian Tabel Ringkasan
+        if (document.getElementById('summaryCash')) document.getElementById('summaryCash').innerText = formatIdr(cash);
+        if (document.getElementById('summaryInventory')) document.getElementById('summaryInventory').innerText = formatIdr(inventory);
+        if (document.getElementById('summaryReceivables')) document.getElementById('summaryReceivables').innerText = formatIdr(receivables);
+        if (document.getElementById('summaryGrossAssets')) document.getElementById('summaryGrossAssets').innerText = formatIdr(grossAssets);
+        if (document.getElementById('summaryLiabilities')) document.getElementById('summaryLiabilities').innerText = '- ' + formatIdr(liabilities);
+        if (document.getElementById('summaryNetAssets')) document.getElementById('summaryNetAssets').innerText = formatIdr(netAssets);
+        if (document.getElementById('summaryNisab')) document.getElementById('summaryNisab').innerText = formatIdr(annualNisab);
 
         if (isObligated) {
-          statusIndicator.className = 'w-3 h-3 rounded-full bg-emerald-400';
-          statusText.innerText = 'Wajib Menunaikan Zakat (Tercapai Nisab)';
-          statusText.className = 'text-xs font-bold uppercase tracking-wider text-emerald-300';
-          amountDisplay.innerHTML = `${formatIdr(zakatDue)} <span class="text-sm font-normal text-emerald-300">/ bulan</span>`;
-          explanation.innerText = `Penghasilan bersih Anda (${formatIdr(netIncome)}) telah mencapai atau melebihi batas nisab bulanan (${formatIdr(monthlyNisab)}). Zakat 2,5% ini adalah hak asnaf mustahik yang membersihkan harta.`;
+          if (statusIndicator) statusIndicator.className = 'w-3 h-3 rounded-full bg-emerald-400';
+          if (statusText) {
+            statusText.innerText = 'Wajib Menunaikan Zakat Perdagangan';
+            statusText.className = 'text-xs font-bold uppercase tracking-wider text-emerald-300';
+          }
+          if (amountDisplay) {
+            amountDisplay.innerHTML = `${formatIdr(zakatDue)} <span class="text-sm font-normal text-emerald-300">/ tahun (per haul)</span>`;
+          }
+          if (explanation) {
+            explanation.innerText = `Harta bersih perniagaan Anda (${formatIdr(netAssets)}) telah mencapai atau melampaui batas nisab 85 gram emas (${formatIdr(annualNisab)}). Mengeluarkan zakat perniagaan 2,5% menyucikan harta usaha dan mendatangkan keberkahan perniagaan.`;
+          }
         } else {
-          statusIndicator.className = 'w-3 h-3 rounded-full bg-amber-400';
-          statusText.innerText = 'Belum Wajib Zakat (Disunnahkan Infaq)';
-          statusText.className = 'text-xs font-bold uppercase tracking-wider text-amber-300';
-          amountDisplay.innerHTML = `Rp 0 <span class="text-xs font-normal text-amber-200/80">(Disarankan Sedekah Sukarela)</span>`;
-          explanation.innerText = `Penghasilan bersih Anda (${formatIdr(netIncome)}) belum mencapai batas nisab bulanan (${formatIdr(monthlyNisab)}). Anda tidak dibebani kewajiban zakat mal, namun pintu infaq dan sedekah terbuka luas untuk menjemput keberkahan.`;
+          if (statusIndicator) statusIndicator.className = 'w-3 h-3 rounded-full bg-amber-400';
+          if (statusText) {
+            statusText.innerText = 'Belum Wajib Zakat (Belum Capai Nisab)';
+            statusText.className = 'text-xs font-bold uppercase tracking-wider text-amber-300';
+          }
+          if (amountDisplay) {
+            amountDisplay.innerHTML = `Rp 0 <span class="text-xs font-normal text-amber-200/80">(Disarankan Sedekah Sukarela)</span>`;
+          }
+          if (explanation) {
+            explanation.innerText = `Harta bersih perniagaan Anda (${formatIdr(netAssets)}) belum mencapai batas nisab 85 gram emas (${formatIdr(annualNisab)}). Anda belum dibebani kewajiban zakat tijarah, namun sangat dianjurkan memperbanyak infaq dan sedekah perniagaan.`;
+          }
         }
 
-        showToast('Kalkulasi zakat berhasil diperbarui!');
+        showToast('Kalkulasi zakat perdagangan berhasil dihitung!');
       }
 
       function resetZakatCalculator() {
-        document.getElementById('monthlyIncome').value = '10.000.000';
-        document.getElementById('additionalIncome').value = '0';
-        document.getElementById('basicExpenses').value = '3.000.000';
+        if (document.getElementById('cashEquivalents')) document.getElementById('cashEquivalents').value = '45.000.000';
+        if (document.getElementById('inventoryStock')) document.getElementById('inventoryStock').value = '120.000.000';
+        if (document.getElementById('receivables')) document.getElementById('receivables').value = '25.000.000';
+        if (document.getElementById('currentLiabilities')) document.getElementById('currentLiabilities').value = '40.000.000';
         calculateZakat();
       }
 
       function copyZakatSummary() {
-        const gross = document.getElementById('summaryGross').innerText;
-        const expenses = document.getElementById('summaryExpenses').innerText;
-        const net = document.getElementById('summaryNet').innerText;
-        const status = document.getElementById('zakatStatusText').innerText;
-        const amount = document.getElementById('zakatAmountDisplay').innerText;
+        const cash = document.getElementById('summaryCash')?.innerText || '-';
+        const inventory = document.getElementById('summaryInventory')?.innerText || '-';
+        const receivables = document.getElementById('summaryReceivables')?.innerText || '-';
+        const gross = document.getElementById('summaryGrossAssets')?.innerText || '-';
+        const liabilities = document.getElementById('summaryLiabilities')?.innerText || '-';
+        const net = document.getElementById('summaryNetAssets')?.innerText || '-';
+        const status = document.getElementById('zakatStatusText')?.innerText || '-';
+        const amount = document.getElementById('zakatAmountDisplay')?.innerText?.replace(/\s+/g, ' ') || '-';
+        const nisab = document.getElementById('summaryNisab')?.innerText || '-';
 
-        const text = `[Kalkulator Zakat Profesi - Portal Ekonomi Islam 2026]\nStatus: ${status}\nTotal Penerimaan: ${gross}\nPengeluaran Pokok: ${expenses}\nPenghasilan Bersih: ${net}\nKewajiban Zakat: ${amount}\nAcuan Nisab Emas: 85g / tahun (~Rp 10.270.833/bln)`;
+        const text = `[Kalkulator Zakat Perdagangan (Tijarah) - Portal Ekonomi Islam 2026]\nStatus: ${status}\nKas & Bank Usaha: ${cash}\nPersediaan Stok Barang: ${inventory}\nPiutang Usaha Lancar: ${receivables}\nTotal Aset Lancar Perdagangan: ${gross}\nUtang Usaha Jatuh Tempo: ${liabilities}\nHarta Bersih Kena Zakat: ${net}\nKewajiban Zakat yang Wajib Dikeluarkan: ${amount}\nAcuan Batas Nisab Emas (85g): ${nisab}`;
         
         navigator.clipboard.writeText(text).then(() => {
-          showToast('Rincian kalkulasi berhasil disalin ke clipboard!');
+          showToast('Rincian zakat perdagangan berhasil disalin ke clipboard!');
         }).catch(() => {
           showToast('Gagal menyalin otomatis, silakan salin manual.');
         });
       }
 
-      // 4. News Category Filter
+      // 4. News Category Filter with smooth Tailwind CSS fade-in transition
       function filterNews(cat) {
         document.querySelectorAll('.news-tab').forEach(btn => {
           btn.className = 'news-tab px-3.5 py-1.5 text-xs font-medium rounded-md text-stone-600 hover:text-emerald-950 transition-colors';
@@ -1210,11 +1536,21 @@
         }
 
         const cards = document.querySelectorAll('.news-card');
+        let visibleIndex = 0;
         cards.forEach(card => {
-          if (cat === 'semua' || card.getAttribute('data-category') === cat) {
+          const isMatch = cat === 'semua' || card.getAttribute('data-category') === cat;
+          if (isMatch) {
             card.classList.remove('hidden');
+            // Reset and trigger smooth fade-in animation
+            card.classList.remove('animate-fade-in');
+            card.style.animationDelay = `${visibleIndex * 60}ms`;
+            void card.offsetWidth; // Force DOM reflow to restart animation reliably
+            card.classList.add('animate-fade-in');
+            visibleIndex++;
           } else {
             card.classList.add('hidden');
+            card.classList.remove('animate-fade-in');
+            card.style.animationDelay = '';
           }
         });
       }
@@ -1224,7 +1560,7 @@
         0: {
           tag: 'SOROTAN UTAMA · 27 SEPTEMBER 2026',
           title: 'Perkembangan Sukuk Global 2026: Penerbitan Green Sukuk Asia Tenggara Tembus Rekor Baru US$ 42 Miliar',
-          author: 'Dewan Redaksi Riset Ekonomi Syariah',
+          author: 'Oleh Redaksi',
           body: `
             <p class="leading-relaxed"><strong>JAKARTA & DUBAI</strong> — Pasar obligasi syariah (sukuk) global mencatatkan tonggak sejarah baru sepanjang tahun 2026. Laporan gabungan Islamic Financial Services Board (IFSB) dan Bank Pembangunan Islam (IsDB) mencatat total penerbitan instrumen Green and Sustainability Sukuk di kawasan Asia Tenggara dan Timur Tengah mencapai US$ 42 Miliar, melonjak 28,4% dibandingkan periode yang sama tahun sebelumnya.</p>
             <h4 class="font-bold text-base text-emerald-950 pt-2">Mengapa Green Sukuk Menjadi Primadona?</h4>
@@ -1238,7 +1574,7 @@
         1: {
           tag: 'GLOBAL · 26 SEPTEMBER 2026',
           title: 'Konsorsium Perbankan Teluk dan ASEAN Luncurkan Fasilitas Likuiditas Syariah Multi-Valuta',
-          author: 'Ahmad Fauzan, M.Ec · Redaksi Global',
+          author: 'Oleh Redaksi',
           body: `
             <p class="leading-relaxed">Konsorsium 14 bank syariah terkemuka dari Uni Emirat Arab, Arab Saudi, Malaysia, dan Indonesia hari ini meresmikan mekanisme kliring pasar uang syariah lintas batas (Cross-Border Islamic Liquidity Hub).</p>
             <p class="leading-relaxed">Fasilitas ini memanfaatkan komoditas murabahah dan wakalah bil istitsmar yang diotentikasi secara digital untuk mendistribusikan kelebihan likuiditas antarbank syariah dalam mata uang Dirham, Ringgit, dan Rupiah tanpa konversi dolar AS yang fluktuatif.</p>
@@ -1248,7 +1584,7 @@
         2: {
           tag: 'LOKAL · 25 SEPTEMBER 2026',
           title: 'Inklusi Keuangan Syariah Nasional Tembus 15,2% Didorong Akselerasi Fintech Halal',
-          author: 'Siti Rahmawati, S.E.I · Finansial Domestik',
+          author: 'Oleh Redaksi',
           body: `
             <p class="leading-relaxed">Survei Nasional Literasi dan Inklusi Keuangan Syariah 2026 yang dirilis Otoritas Jasa Keuangan (OJK) menunjukkan lonjakan inklusi ke angka 15,2%, naik signifikan dari posisi 12,1% dua tahun lalu.</p>
             <p class="leading-relaxed">Faktor pendorong utama adalah integrasi dompet digital syariah, aplikasi pembayaran pesantren, serta platform urun dana (securities crowdfunding) berakad musyarakah yang memberikan permodalan bagi 4,8 juta pelaku UMKM kuliner dan fashion halal di seluruh pelosok Indonesia.</p>
@@ -1257,7 +1593,7 @@
         3: {
           tag: 'REGULASI · 23 SEPTEMBER 2026',
           title: 'Pedoman Standar Akuntansi Wakaf Produktif 2026 Resmi Disahkan DSN-MUI',
-          author: 'Dr. Hamdan Syukri · Biro Regulasi',
+          author: 'Oleh Redaksi',
           body: `
             <p class="leading-relaxed">Dewan Syari'ah Nasional Majelis Ulama Indonesia (DSN-MUI) bersama Ikatan Akuntan Indonesia (IAI) mengesahkan Pedoman Standar Akuntansi Keuangan (PSAK) Syariah untuk pengelolaan Aset Wakaf Produktif.</p>
             <p class="leading-relaxed">Poin kunci pedoman ini meliputi keharusan pemisahan ketat antara harta pokok wakaf (mauquf bih) yang tidak boleh berkurang nilainya dengan surplus hasil pengelolaan yang siap disalurkan kepada para penerima manfaat (mauquf 'alaih).</p>
@@ -1290,23 +1626,23 @@
       // 6. Education Modals Data
       const eduModulData = {
         mudharabah: {
-          title: 'Akad Mudharabah (Kemitraan Modal & Usaha)',
-          dalil: 'Al-Qur’an Surat Al-Muzzammil: 20 ("...dan orang-orang yang berjalan di muka bumi mencari sebagian karunia Allah..."). Hadits riwayat Ibnu Majah mengenai tiga hal yang diberkahi, salah satunya mudharabah.',
-          desc: 'Mudharabah adalah akad kerjasama usaha antara dua pihak: pihak pertama (Shahibul Mal) menyediakan seluruh modal usaha 100%, sedangkan pihak kedua (Mudharib) bertindak sebagai pengelola profesional.',
+          title: 'Perbedaan Akad Murabahah dan Mudharabah',
+          dalil: 'Al-Qur’an Surat Al-Baqarah: 275 ("...Allah telah menghalalkan jual beli dan mengharamkan riba...") serta hadits riwayat Ibnu Majah mengenai mudharabah yang diberkahi.',
+          desc: 'Perbedaan mendasar: Murabahah adalah akad jual beli komersial di mana penjual secara transparan menyebutkan harga perolehan barang dan marjin keuntungan yang disepakati bersama pembeli (baik dibayar tunai maupun dicicil). Sedangkan Mudharabah adalah akad kemitraan usaha murni di mana pemilik modal (Shahibul Mal) menyediakan 100% modal finansial, dan pengelola (Mudharib) bertindak menjalankan operasional bisnis dengan pembagian laba sesuai nisbah disepakati di awal.',
           rules: [
-            'Nisbah bagi hasil keuntungan (misal 60:40) wajib disepakati di awal akad secara persentase, BUKAN nominal tetap.',
-            'Jika terjadi kerugian finansial di luar kelalaian mudharib, kerugian ditanggung sepenuhnya oleh pemilik modal.',
-            'Mudharib menanggung kerugian waktu dan tenaga serta tidak berhak atas bagi hasil saat rugi.'
+            'Murabahah: Keuntungan penjual bernilai tetap (fixed margin) yang mengikat sejak akad jual beli ditandatangani.',
+            'Mudharabah: Keuntungan bersifat fleksibel mengikuti laba bersih riil usaha (profit & loss sharing), tidak boleh dipatok nominal pasti di muka.',
+            'Risiko Kerugian: Dalam mudharabah, jika terjadi rugi di luar kelalaian pengelola, kerugian dana ditanggung penuh pemilik modal. Dalam murabahah, pembeli tetap berkewajiban melunasi harga barang yang telah diterima.'
           ]
         },
         paylater: {
-          title: 'Fikih Paylater & Layanan Talangan Digital',
-          dalil: 'Kaidah Fiqhiyyah Mashur: "Kullu qardhin jarra manfa\'atan fahuwa riba" (Setiap pinjaman yang mendatangkan keuntungan tambahan yang disyaratkan bagi pemberi pinjaman adalah riba).',
-          desc: 'Fitur beli sekarang bayar nanti (paylater) secara syariah harus dianalisis apakah menggunakan akad Qardh (pinjaman kebajikan) atau Ijarah / Jual Beli Murabahah.',
+          title: 'Hukum Paylater dalam Islam & Pinjol Syariah',
+          dalil: 'Kaidah Fiqhiyyah Masyhur: "Kullu qardhin jarra manfa\'atan fahuwa riba" (Setiap utang-piutang yang mensyaratkan keuntungan bagi pemberi utang adalah riba jahiliyyah).',
+          desc: 'Layanan beli sekarang bayar nanti (paylater) secara fikih muamalah kontemporer dianalisis berdasarkan akad yang digunakan: Qardh (pinjaman talangan), Ijarah (jasa penjaminan/perantara), atau Murabahah (jual beli tangguh).',
           rules: [
-            'Jika akadnya qardh, pembebanan bunga bertambah seiring berjalannya waktu atau denda keterlambatan yang dijadikan keuntungan penyedia adalah RIBA.',
-            'Biaya administrasi (ujrah) hanya diperbolehkan senilai riil beban operasional pemrosesan dokumen.',
-            'Solusi syariah: Skema Murabahah di mana pihak fintech membeli barang terlebih dahulu lalu menjualnya ke nasabah dengan margin keuntungan yang transparan dan tetap.'
+            'Riba Nasi\'ah: Pengenaan bunga berjalan atau denda keterlambatan pembayaran yang dijadikan laba perusahaan penyedia pinjaman adalah haram secara mutlak.',
+            'Ujrah Administrasi: Biaya platform hanya dibenarkan apabila mencerminkan biaya riil administrasi pemrosesan sistem (real cost), bukan persentase bunga tersembunyi.',
+            'Alternatif Syariah: Menggunakan skema Murabahah di mana pihak penyelenggara membeli barang dari merchant terlebih dahulu, kemudian menjualnya kepada konsumen dengan cicilan margin tetap tanpa denda berbunga.'
           ]
         },
         gharar: {
@@ -1400,9 +1736,13 @@
           const text = c.innerText.toLowerCase();
           if (text.includes(q)) {
             c.classList.remove('hidden');
+            c.classList.remove('animate-fade-in');
+            void c.offsetWidth;
+            c.classList.add('animate-fade-in');
             matches++;
           } else {
             c.classList.add('hidden');
+            c.classList.remove('animate-fade-in');
           }
         });
 
@@ -1413,7 +1753,12 @@
         desktopSearch.value = '';
         mobileSearch.value = '';
         searchBanner.classList.add('hidden');
-        document.querySelectorAll('.news-card').forEach(c => c.classList.remove('hidden'));
+        document.querySelectorAll('.news-card').forEach(c => {
+          c.classList.remove('hidden');
+          c.classList.remove('animate-fade-in');
+          void c.offsetWidth;
+          c.classList.add('animate-fade-in');
+        });
       }
 
       desktopSearch.addEventListener('input', (e) => performSearch(e.target.value));
